@@ -3,7 +3,7 @@ import * as math from "../JS/math";
 
 test("calls math.add", () => {
 
-  // A la constante originalAdd le asigna la funcion add de math (math.add)
+  // A la constante originalAdd le asigna la funcion add de math
   const originalAdd = math.add;
 
   // mock add con la implementacion de la funcion original
